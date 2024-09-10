@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Care Shopping.com</title>
+    <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io (1)/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io (1)/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io (1)/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<body>
+    
+    <section id="header">   
+        <a href="index.html"> <img src="img/logo.png"alt="" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a  href="shop.html">Shop</a></li>
+                <li><a href="blog.html">blog</a></li>
+                <li><a  href="about.html">about</a></li>
+                <li><a  href="contact.html">contact</a></li>
+                <li><a class="active" href="cart.html"><i class="fa-solid fa-cart-shopping"width="30px" id="lg-bag"></i></a></li>
+                <a href="#" id="close"><img src="img/cross.png" width="30px"></a>
+               
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"> <i class="fa-solid fa-cart-shopping"width="30px" class="cart"></i></a> 
+            <a id="bar"><img src="img/arrow.r.png" width="20px" class="arrow"></a> 
+        </div>
+    </section>
+    <section id="page-header" class="about-header">
+        <h2>#lets's_talk</h2>
+        <p>LEAVE A MESSAGE, We love to hear from You !</p>
+
+    </section> 
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Qunantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> <a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td> <img src="img/products/f1.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirts</td>
+                    <td>$118.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.19</td>
+                </tr>
+                <tr>
+                    <td> <a href="#"><i class ="fa-regular fa-circle-xmark"></i></a></td>
+                    <td> <img src="img/products/f2.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirts </td>
+                    <td>$118.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.19</td>
+                </tr>
+                <tr>
+                    <td> <a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td> <img src="img/products/f3.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirts</td>
+                    <td>$118.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.19</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$ 335</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong> $ 335</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Process to Checkout</button>
+        </div>
+    </section>
+    <footer  class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png">
+            <h4>contact</h4>
+            <p> <strong>Address:</strong> 562 Wellington Road . Street 32 San Francisco </p>
+            <p> <strong>Phone:</strong> +01 2222 365 /(+91)01 2345 6789</p>
+            <p> <strong>Hours:</strong> 10:00 - 18:00.Mon - sat</p>  
+        </div>
+        <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privancy Policy</a>
+            <a href="#">Term & Conditions</a>
+            <a href="#">Content Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account </h4>
+            <a href="#">Sign Up</a>
+            <a href="#">view Cart</a>
+            <a href="#">My Wishlist </a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Instll App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured  Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>@ 2024 ibrahimcodes javascript Ecomerece Template</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
